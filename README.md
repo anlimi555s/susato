@@ -3,7 +3,8 @@
 服装适配五套，准备额外添加服装。
 
 2026/7/1
-更新了：
+适配了：
+
 schoolshirt 校服衬衫
 ballgown 舞会礼服
 cat hoodie 猫猫卫衣
