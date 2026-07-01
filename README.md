@@ -1,4 +1,5 @@
 # 寿礼美化新版本适配
+持续维护中
 ## 旧版本
 
 旧版本内容可从 [GitHub](https://github.com/sakuramifushika/closeup/) 获取，适用于 **v0.5.8 及之前版本**。
