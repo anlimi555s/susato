@@ -3,6 +3,7 @@
 ## 旧版本
 
 旧版本内容可从 [GitHub](https://github.com/sakuramifushika/closeup/) 获取，适用于 **v0.5.8 及之前版本**。
+旧版本内容推荐使用susato-model ZH ver1.7.0.mod的模型，受限于上传限制，请自行解压后重新压缩成zip格式再用。
 
 > 转换贴图错误请自行修复。
 > 模组安装请自行寻找教程
