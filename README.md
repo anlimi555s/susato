@@ -56,53 +56,6 @@
 
 susato 新版本移植内容目前还在适配中。
 
-适配了：
-| # | 套装 | 英文名 | 上装 | 下装 |
-|---|------|--------|:--:|:--:|
-| 套装 | 上装 | 下装 | 类别 |
-|------|:--:|:--:|------|
-| `ao dai` 奥黛 | ✅ | ✅ | 外衣 |
-| `apron` 围裙 | ✅ | ✅ | 外衣 |
-| `ballgown` 舞会礼服 | ✅ | ✅ | 外衣 |
-| `bathrobe` 浴袍 | ✅ | ✅ | 外衣 |
-| `cheongsam` 旗袍 | ✅ | ✅ | 外衣 |
-| `cheongsamshort` 短旗袍 | ✅ | ✅ | 外衣 |
-| `eveninggown` 晚礼服 | ✅ | ✅ | 外衣 |
-| `gothic` 哥特 | ✅ | ✅ | 外衣 |
-| `hanfu` 汉服 | ✅ | ✅ | 外衣 |
-| `leatherdress` 皮裙 | ✅ | ✅ | 外衣 |
-| `maid` 女仆装 | ✅ | ✅ | 外衣 |
-| `openshoulderlolita` 露肩洛丽塔 | ✅ | ✅ | 外衣 |
-| `overalls` 背带裤 | ✅ | ✅ | 外衣 |
-| `sundress` 太阳裙 | ✅ | ✅ | 外衣 |
-| `sweaterlarge` 大码毛衣 | ✅ | ✅ | 外衣 |
-| `argyle` 菱格纹 | ✅ | — | 外衣 |
-| `babydoll` 娃娃装 | ✅ | — | 外衣 |
-| `babydolllingerie` 娃娃领内衣 | ✅ | — | 外衣 |
-| `band tee` 乐队T恤 | ✅ | — | 外衣 |
-| `baseball` 棒球衫 | ✅ | — | 外衣 |
-| `beatnik` 嬉皮士 | ✅ | — | 外衣 |
-| `bedsheet` 床单 | ✅ | — | 外衣 |
-| `belly` 露脐装 | ✅ | — | 外衣 |
-| `blackleather` 黑皮衣 | ✅ | — | 外衣 |
-| `blazershirt` 西装衬衫 | ✅ | — | 外衣 |
-| `blouse` 衬衫 | ✅ | — | 外衣 |
-| `boxy` 宽松上衣 | ✅ | — | 外衣 |
-| `brownleather` 棕色皮衣 | ✅ | — | 外衣 |
-| `camo` 迷彩 | ✅ | — | 外衣 |
-| `cat hoodie` 猫猫卫衣 | ✅ | — | 外衣 |
-| `cheerleader` 啦啦队服 | ✅ | — | 外衣 |
-| `dress` 连衣裙 | ✅ | — | 外衣 |
-| `gothicjacket` 哥特夹克 | ✅ | — | 外衣 |
-| `gymshirt` 运动衫 | ✅ | — | 外衣 |
-| `letterman` 校队夹克 | ✅ | — | 外衣 |
-| `schoolshirt` 校服衬衫 | ✅ | — | 外衣 |
-| `sweater` 毛衣 | ✅ | — | 外衣 |
-| `towel` 浴巾 | ✅ | — | 外衣 |
-| `towellarge` 大浴巾 | ✅ | — | 外衣 |
-| `tshirt` T恤 | ✅ | — | 外衣 |
-| `under-lower` | — | 48 套 | 内衣 |
-| `under-upper` | 36 套 | — | 内衣 |
 
 
 
