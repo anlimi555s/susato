@@ -9,7 +9,7 @@
 
 >如若一定要使用适配版进行新版游玩，请暂时用已经适配好的，或是mod的衣服游玩。如若有bug请反馈给aaiiqq_az@163.com。
 
-同时下载适配版请去[https://github.com/anlimi555s/susato/releases/tag/%E5%AF%BF%E9%87%8C%E7%BE%8E%E5%8C%96]
+同时下载适配版请去[release](https://github.com/anlimi555s/susato/releases/tag/%E5%AF%BF%E9%87%8C%E7%BE%8E%E5%8C%96)
 仓库用于存放mod和作为未来更新与临时版的地方。
 
 临时版更新较快，不推荐使用。
