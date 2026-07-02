@@ -63,4 +63,4 @@ susato 新版本移植内容目前还在适配中。
 编写了_s.js脚本用以辅助，预计额外添加服装
 （；´д｀）ゞ想先画我的洛天依服装，希望不要再出现如此大的命名更新了。
 
-感谢@Passerby-Hans[https://github.com/Passerby-Hans]的支持。
+感谢 [@Passerby-Hans](https://github.com/Passerby-Hans) 的支持！
