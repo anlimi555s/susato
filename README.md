@@ -45,11 +45,13 @@ susato-model-v5.10-0.6已经上线。
 
 ## susato-model-v5.10-0.8：
 
-修复飞天人头bug。
+修复飞天人头bug，以及转化问题，实装@Yisic提供的全套哈比转换。
 
 ## susato-model-v5.10-0.9：
 
 合并mod。可能彻底合并more_clothes_for_susato_ver0.2.4.mod用以降低版本更新数量，同时对部分允许mod开始合并减轻玩家加载mod数量问题。
+
+可能合并susato-model (SRK Redraw)_1.0.2。
 
 同时处理旧版本代码遗漏补丁，以及对第一个正式版本的考虑。
 
