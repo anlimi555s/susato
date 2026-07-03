@@ -20,6 +20,7 @@
 - `tuxedo`、`hunt` 缺整个文件夹，`babydoll` 缺 0.png/1.png，`letterman` 缺 0.png。小胸穿这些会胸口缺图。不影响感官，暂时不修。
 - `christmas` 圣诞装无胸部编号图，已补丁禁用所有 breast_img。
 - `christmasdress` 圣诞连衣裙原版缺 1/2/4 胸差，已补丁开启全套 `breast_img: 1`。
+- 缺图缺的严重。
 
 **进行中：**
 - 鸟系修复（50%）
