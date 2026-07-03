@@ -45,7 +45,9 @@ susato-model-v5.10-0.6已经上线。
 
 ## susato-model-v5.10-0.9：
 
-合并mod。
+合并mod。可能彻底合并more_clothes_for_susato_ver0.2.4.mod用以降低版本更新数量，同时对部分允许mod开始合并减轻玩家加载mod数量问题。
+
+同时处理旧版本代码遗漏补丁，以及对第一个正式版本的考虑。
 
 ## 旧版本
 
