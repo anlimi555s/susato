@@ -13,7 +13,7 @@ susato-model-v5.10-0.6已经上线。
 
 同时下载适配版请去[release](https://github.com/anlimi555s/susato/releases/tag/%E5%AF%BF%E9%87%8C%E7%BE%8E%E5%8C%96)
 
-仓库用于存放mod和作为未来更新与临时版的地方，可以打开查看bug以及一些适配版问题与画饼。
+仓库用于存放mod和作为未来更新计划的地方，不再直接存放mod，可以打开查看bug以及一些适配版问题与画饼。
 
 临时版更新较快，不推荐使用。
 
