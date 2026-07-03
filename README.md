@@ -17,6 +17,18 @@ susato-model-v5.10-0.6已经上线。
 
 >模组安装简单轻便，直接加载入模组加载器即可。注意：请勿加载多个美化。
 
+# susato-model-v5.10-0.6：
+目前上装适配115、下装115，接下来0.7版本会把其中贴图错误的重新修好。
+先安装susato-model-v5.10-0.6.zip
+
+再susato-model.SRK.Redraw._1.0.2.zip
+
+最后才能是more_clothes_for_susato_ver0.2.4.mod.zip
+
+未来因为第五珍奇柜ver1.0.1.mod的可二改二传许可，可能会被合入more_clothes_for_susato_ver0.2.4.mod里。同时，more_clothes_for_susato_ver0.2.4.mod内部服装错误的将会在之后修复。
+
+若是发现关于贴图错误的红点报错。emmm，暂时不用管，那是我自己代码没改，不影响渲染就行。但理发人头悬空bug还没修好，等等吧。
+
 ## 旧版本
 
 旧版本内容可从 [GitHub](https://github.com/sakuramifushika/closeup/) 获取，适用于 **v0.5.8 及之前版本**。
