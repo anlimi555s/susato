@@ -7,6 +7,8 @@ susato-model-v5.10-0.6已经上线。
 
 其中v5.1.0表示适配游戏版本。0.5表示美化适配版更新版本号。
 
+求求求，有没有想未来一起更新的，给新出的服装画画。
+
 >如若一定要使用适配版进行新版游玩，请暂时用已经适配好的，或是mod的衣服游玩。如若有bug请反馈给aaiiqq_az@163.com。
 
 同时下载适配版请去[release](https://github.com/anlimi555s/susato/releases/tag/%E5%AF%BF%E9%87%8C%E7%BE%8E%E5%8C%96)
