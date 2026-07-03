@@ -39,9 +39,13 @@ susato-model-v5.10-0.6已经上线。
 未安装的剩余四十套上下衣物安装。
 
 
-## susato-model-v5.10-0.7：
+## susato-model-v5.10-0.8：
 
 修复飞天人头bug。
+
+## susato-model-v5.10-0.9：
+
+合并mod。
 
 ## 旧版本
 
