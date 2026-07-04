@@ -15,7 +15,7 @@ susato-model-v5.10-0.6已经上线。
 
 >如若一定要使用适配版进行新版游玩，请暂时用已经适配好的，或是mod的衣服游玩。如若有bug请反馈给aaiiqq_az@163.com。
 
-同时下载适配版请去[release](https://github.com/anlimi555s/susato/releases/tag/%E5%AF%BF%E9%87%8C%E7%BE%8E%E5%8C%96)
+同时下载适配版请去[release](https://github.com/anlimi555s/susato/releases)
 
 仓库用于存放mod和作为未来更新计划的地方，不再直接存放mod，可以打开查看bug以及一些适配版问题与画饼。
 
