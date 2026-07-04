@@ -1,7 +1,7 @@
 # 寿里美化新版本适配:
 接手寿里美化更新。
 
->每天凌晨一点到两点请勿访问仓库，有时会进行仓库初始化。
+>你可以在discord上找到susato-model的频道。或者加入QQ群540579363来发送消息。
 
 >更新请去[release](https://github.com/anlimi555s/susato/releases)
 
