@@ -1,0 +1,37 @@
+{
+  "name": "Unlock All Special Clothes Sets",
+  "version": "1.0.0",
+  "author": ":P",
+  "description": "解锁 Forest Shop 全部特殊服装套装，无需满足原始解锁条件（季节/剧情/feat/好感度等）",
+  "styleFileList": [],
+  "scriptFileList": [],
+  "tweeFileList": [],
+  "imgFileList": [],
+  "additionFile": [],
+  "additionDir": [],
+  "addonPlugin": [
+    {
+      "modName": "ReplacePatcher",
+      "addonName": "ReplacePatcherAddon",
+      "modVersion": "1.0.0",
+      "params": {
+        "js": [
+          {
+            "_comment1": "Unlock all special clothes sets unconditionally - v1.0 2026-07-06 :P",
+            "fileName": "clothing-special.js",
+            "from": "\t// For any clothes with unlock value <= 2, set to 3 if requirements have been met\n\tV.specialClothes\n\t\t.filter(clothing => clothing.unlocked <= 2)\n\t\t.forEach(clothing => {\n\t\t\tconst baseItem = setup.specialClothes.find(item => item.name === clothing.name);\n\t\t\t// Check if the individual item has its own requirement first\n\t\t\tif (baseItem?.requirements && baseItem.requirements()) {\n\t\t\t\tclothing.unlocked = 3;\n\t\t\t}\n\t\t\t// Then check set requirements\n\t\t\tbaseItem?.sets.forEach(set => {\n\t\t\t\tconst baseItemSet = setup.specialClothesSets[set];\n\t\t\t\tif (baseItemSet?.requirements && baseItemSet.requirements()) clothing.unlocked = 3;\n\t\t\t});\n\t\t});",
+            "to": "\t// MOD: Unlock all special clothes sets unconditionally\n\tV.specialClothes.forEach(clothing => { clothing.unlocked = 3; });"
+          }
+        ],
+        "twee": [],
+        "css": []
+      }
+    }
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "ReplacePatcher",
+      "version": "^1.0.0"
+    }
+  ]
+}
