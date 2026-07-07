@@ -1,6 +1,8 @@
 # 寿里美化新版本适配:
 接手寿里美化更新。
 
+请，请，请不要使用库里的美化版本。请去release下载发布版本，库是用来堆资料和子mod以及备份的，其中的susato-model不一定是你需要的版本。
+
 >你可以在discord上找到susato-model的频道。或者加入QQ群540579363来发送消息。
 
 >更新请去[release](https://github.com/anlimi555s/susato/releases)
