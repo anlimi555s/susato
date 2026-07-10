@@ -376,3 +376,85 @@ sclera → iris → eyes → eyelids → lashes → brows     (眼型子目录)
 - `imgFileList` +287
 
 **未合并**：`code/addon-TF/` 及对应 TweeReplacer 条目
+
+---
+
+## 十、2026-07-08 操作记录
+
+### boot.json 结构性修复
+
+- 补全 `author`、`description`、`additionFile`、`additionDir` 缺失字段
+- 修复重复 `additionFile`/`additionDir` key（曾出现在第 8 行和底部两处）
+- 删除 10 个 from/to 均为空的无效补丁
+- `Readme.txt` → `README.md`（磁盘文件名修正）
+- `_s.js` 同步 imgFileList：9797 → 10394（+598 装饰图，-1 测试图）
+
+### ModI18N 兼容性：mirrorMood 双入口
+
+- TweeReplacer 的 `decorations.txt` 注入因 ModI18N 翻译 `"Back"` → `"返回"` 导致 findString 匹配失败
+- 解决方案：新增一条中文 findString 入口做兜底
+- 两个入口互斥，一条失败另一条命中
+
+### 图片命名修正
+
+- `img/clothes/upper/schoolshirt/`：33 个文件 `_` → `-`
+- `img/bodywriting/text/`：75 个文件 `_` → `-`（`left_thigh.png` → `left-thigh.png`）
+- `text/default/breasts1~6.png` → `breasts-1~6.png`
+
+### 面部系统分析
+
+- `img/face/default/`：6 眼型齐全，共 205 文件
+- 发现 gloom makeup 命名错误：`eyeshadows.png`（复数）、`eyeshadow-half-closed.png.png`（双扩展名）
+- 17 个旧命名冗余文件（`blush1-5`、`tear1-4`、`mouthcry` 等，游戏不引用）
+
+### 手臂 Z 序研究（未完成）
+
+- 根因：身体臂图包含手，共用一个 z-index
+- `armsidle: 30` 远低于 `legs: 66.6`，导致 idle 手被袜子覆盖
+- 多次尝试改 ZIndices 值和渲染逻辑，均导致左衣袖消失
+- LayerFixes 2.0.5 mod 为旧版游戏编写，from 字符串在当前版本不匹配
+- 最终方案搁置
+
+---
+
+## 十一、2026-07-09 操作记录
+
+### 独立 mod 产出
+
+| mod | 说明 |
+|-----|------|
+| `arms-above-legs/boot.json` | 手臂层级修复（独立可用，未经完整测试） |
+| `LayerFixes-Updated/boot.json` | 适配当前游戏版本的层级修复 |
+
+### 日志目录 mod 作者统一
+
+- `每日无衰竭mod.zip`、`特殊衣服全解锁mod.zip`、`理发店回退mod.zip`：author 改为 `画家K`
+
+### breast_img 运行时补丁
+
+**背景**：156 个文本匹配补丁各改一个 breast_img 值，维护困难且和 ModI18N 冲突。
+
+**方案**：在 `init.js` 的 `clothingDataInit()` 末尾注入运行时修复代码。
+
+**逻辑**：
+```js
+// 遍历 6 个衣物槽位
+for (const _s of ["upper","lower","under_upper","under_lower","over_upper","over_lower"]) {
+    for (const _item of setup.clothes[_s]) {
+        if (_item.breast_img === 0) {
+            _item.breast_img = 1;                    // 0 → 1
+        } else if (_item.breast_img && typeof _item.breast_img === "object") {
+            if (_vals.some(_v => _v !== null)) {
+                _item.breast_img = 1;                // 对象有数值 → 1
+            }
+        }
+        // 全 null 对象 → 跳过（禁胸差如 tuxedo jacket）
+    }
+}
+```
+
+**结果**：JS 补丁从 178 减至 32。156 个 breast_img 补丁被 1 个运行时补丁替代。
+
+### 模块化拆分（已废弃）
+
+尝试拆分为 `boot-base.json` + `patches.json` + `_build.js`，后因 ModLoader 的 ReplacePatcher 不支持 `replaceFile` 外部引用而放弃。三文件已删除，回归单 `boot.json` + `_s.js` 结构。
