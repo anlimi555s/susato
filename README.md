@@ -26,7 +26,9 @@ Please, please, please don't use the version in the repository. Go to the Releas
 
 Future naming standard
 Example: susato-model-v5.10-0.5
+
 v5.10 means it's compatible with game version v0.5.10.
+
 0.5 is the mod's own update version number.
 
 Due to my limited capacity, future updates will be community‑submitted. If you've drawn or modded something and want it included in a new version, find the susato-model channel on the Chinese translation team's Discord, or join QQ group 540579363 to send a message.
