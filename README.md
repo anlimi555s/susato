@@ -72,9 +72,9 @@ Thanks to everyone who helped out along the way.
 旧版本内容推荐使用susato-model ZH ver1.7.0.mod的模型，受限于上传限制，请自行解压后重新压缩成zip格式再用。
 
 
-## 美化文件夹说明
+## 寿里子mod-额外衣服文件夹说明
 
-美化文件夹涉及贴吧适用于 susato 模型的服装，如若不允许二传，请及时联系我将其删除。
+寿里子mod-额外衣服文件夹涉及贴吧适用于 susato 模型的服装，如若不允许二传，请及时联系我将其删除。
 | # | 文件名 | 模组名 |
 |---|--------|--------|
 | 1 | `BaiduNetdisk.zip` | 水蓝色云朵 |
