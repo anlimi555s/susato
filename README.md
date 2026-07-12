@@ -17,12 +17,43 @@
 
 >模组安装简单轻便，直接加载入模组加载器即可。注意：请勿加载多个美化。
 
+# Susato Visual Mod – New Version Adaptation:
+I've taken over the updates for the Susato visual mod.
+
+Please, please, please don't use the version in the repository. Go to the Releases page and download the published version there. The repo is just for dumping assets, submods, and backups — the susato-model inside it may not be the version you need.
+
+>For updates, go to [release](https://github.com/anlimi555s/susato/releases)
+
+Future naming standard
+Example: susato-model-v5.10-0.5
+v5.10 means it's compatible with game version v0.5.10.
+0.5 is the mod's own update version number.
+
+Due to my limited capacity, future updates will be community‑submitted. If you've drawn or modded something and want it included in a new version, find the susato-model channel on the Chinese translation team's Discord, or join QQ group 540579363 to send a message.
+
+Again, download the compatible version from  [release](https://github.com/anlimi555s/susato/releases)
+
+The repository is now mainly for storing mods and planning future updates — it no longer directly hosts the mod. You can check it for bugs, compatibility issues, and future plans / wishlists.  
+
+>The mod is simple and lightweight to install: just load it into your mod loader.Note: Do not load multiple visual mods at the same time.
+
 # susato-model-v5.10-1.2：
 感谢@小鼹鼠提供了新衣服的贴图以及美术支持，感谢背景美化提供贴图授权。
 本次更新，新增部分新版本衣服的贴图，以及新的恶魔狼尾巴，以及对背景贴图的增加。（忘记改名字，全堆在背景一了。）
 同时清理了大部分日志和寿里美化衣服的报错，删除148 个补丁，修改了衣服的渲染方式、。保证禁胸差衣服自动显示平板胸部，使得胸部贴图不会再次超出衣服范畴，降低维护难度。
 
 感谢所有在此过程中参与的人。
+
+# susato-model-v5.10-1.2:
+
+Thanks to @小鼹鼠 for the new clothing textures and art support, and thanks to the background texture artist for the texture permissions.
+
+This update adds some new textures for the latest version outfits, a new demon wolf tail, and more background textures. (Forgot to rename stuff, everything ended up dumped under "Background 1".)
+
+Also cleaned up a ton of log spam and errors related to Susato's clothes, deleted 148 patches, and changed how clothes are rendered. Now flat‑chest outfits automatically show a flat chest, so the chest texture won't clip outside the clothes anymore — makes maintenance way easier.
+
+Thanks to everyone who helped out along the way.
+
 
 # 未来更新方向：
 新更新的服饰。
