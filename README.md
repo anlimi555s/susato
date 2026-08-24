@@ -10,7 +10,7 @@
 
 ## Current Archive / 当前归档
 
-- `起源框架-3.29.3.zip` — Genesis Framework base / 起源框架基座
+- `起源框架-3.40.0.zip` — Genesis Framework base / 起源框架基座
 - `起源框架-寿里美化包-2.13.6.zip` — Susato-Model content pack / 寿里美化内容包
 
 > Archives are for backup purposes. For official releases, use the release repository. / 库内包为归档/备份用途，正式发布以发布仓库为准。
